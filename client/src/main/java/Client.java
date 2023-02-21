@@ -22,7 +22,7 @@ public class Client extends Thread{
 
     Client (Consumer<Serializable> call, String ip, String Port) {
         callback = call;
-        IP = ip;
+        IP =ip;
         port = Port;
         clientInfo = new CFourInfo();
         moves = new playerMoves();
